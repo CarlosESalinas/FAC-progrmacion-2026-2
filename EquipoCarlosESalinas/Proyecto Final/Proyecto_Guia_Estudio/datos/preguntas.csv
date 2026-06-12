@@ -1,0 +1,31 @@
+materia,tipo,enunciado,opcion_a,opcion_b,opcion_c,opcion_d,correctas
+Probabilidad,OM,¿Cuál es el rango de valores que puede tomar una probabilidad?,Entre 0 y 1,Entre -1 y 1,De 0 a infinito,,A
+Probabilidad,OM,"Al lanzar un dado justo de seis caras, ¿cuál es la probabilidad de obtener un número par?",1/3,1/2,1/6,,B
+Probabilidad,OM,¿Cómo se llama el conjunto de todos los resultados posibles de un experimento aleatorio?,Evento,Variable aleatoria,Espacio muestral,,C
+Probabilidad,OM,"Si A y B son eventos mutuamente excluyentes, ¿cuánto vale P(A∩B)?",P(A)·P(B),0,1,,B
+Probabilidad,OM,¿Cuál es la probabilidad de un evento seguro?,0,0.5,1,,C
+Probabilidad,OM,"Para dos eventos independientes A y B, ¿a qué es igual P(A∩B)?",P(A)·P(B),P(A)+P(B),P(A)−P(B),,A
+Probabilidad,OM,La expresión P(A|B) = P(A∩B)/P(B) define la:,Probabilidad marginal,Probabilidad condicional,Probabilidad total,,B
+Probabilidad,OM,¿Cuántas permutaciones distintas existen de 3 elementos diferentes?,3,9,6,,C
+Probabilidad,OM,Una variable toma el valor 1 con probabilidad 0.5 y el valor 0 con probabilidad 0.5. ¿Cuál es su valor esperado?,0.5,1,0,,A
+Probabilidad,OM,¿Qué distribución modela el número de éxitos en n ensayos Bernoulli independientes?,Normal,Binomial,Poisson,,B
+Probabilidad,OM,¿Qué distribución modela el tiempo entre eventos en un proceso de Poisson?,Uniforme,Binomial,Exponencial,,C
+Probabilidad,OM,"¿Cuál es la media de una distribución uniforme continua en el intervalo [a, b]?",(a+b)/2,a·b,b−a,,A
+Probabilidad,OM,"Si X sigue una distribución Poisson con parámetro λ, ¿cuánto vale su varianza?",√λ,λ,λ²,,B
+Probabilidad,OM,¿Qué teorema afirma que la suma de muchas variables i.i.d. tiende a una distribución normal?,Ley de los Grandes Números,Teorema de Bayes,Teorema del Límite Central,,C
+Probabilidad,OM,La función que da P(X ≤ x) se conoce como:,Función de densidad,Función de distribución acumulada,Función generadora de momentos,,B
+Probabilidad,OM,"Para una variable aleatoria continua, ¿cuánto vale la probabilidad en un punto exacto, P(X = c)?",0,1,No está definida,,A
+Probabilidad,OM,¿Cuál es la probabilidad de sacar un as de una baraja inglesa estándar de 52 cartas?,1/52,4/52,13/52,,B
+Probabilidad,OM,"La covarianza de una variable consigo misma, Cov(X, X), es igual a:",Cero,Uno,Su varianza,,C
+Probabilidad,SM,¿Cuáles de los siguientes son axiomas de Kolmogorov de la probabilidad?,P(A) ≥ 0 para todo evento A,P(Ω) = 1,La probabilidad siempre es un número entero,P(A) puede ser negativa,A;B
+Probabilidad,SM,¿Cuáles de las siguientes son distribuciones de probabilidad discretas?,Binomial,Poisson,Normal,Exponencial,A;B
+Probabilidad,SM,¿Cuáles de las siguientes son distribuciones de probabilidad continuas?,Normal,Exponencial,Binomial,Geométrica,A;B
+Probabilidad,SM,"Sobre el valor esperado E[·], ¿cuáles propiedades son verdaderas?",E[aX] = a·E[X],E[X+Y] = E[X] + E[Y],E[X·Y] = E[X]·E[Y] siempre,E[c] = 0 para una constante c,A;B
+Probabilidad,SM,"Si A y B son eventos independientes, ¿cuáles afirmaciones son correctas?",P(A∩B) = P(A)·P(B),P(A|B) = P(A),Siempre son mutuamente excluyentes,P(A∪B) = P(A)·P(B),A;B
+Probabilidad,SM,¿Cuáles de las siguientes son medidas de dispersión?,Varianza,Desviación estándar,Media,Mediana,A;B
+Probabilidad,SM,"Sobre la varianza Var(X), ¿qué afirmaciones son verdaderas?",Var(X) ≥ 0,Var(aX) = a²·Var(X),Var(X) siempre es igual a E[X],Var(X) puede ser negativa,A;B
+Probabilidad,SM,¿Cuáles son los parámetros de una distribución normal?,La media μ,La desviación estándar σ,El número de ensayos n,La tasa λ,A;B
+Probabilidad,SM,"En el teorema de Bayes, ¿qué elementos intervienen?",La probabilidad a priori,La verosimilitud,La derivada de la densidad,El factorial del evento,A;B
+Probabilidad,SM,¿Cuáles son características de una función de densidad de probabilidad f(x)?,f(x) ≥ 0 para todo x,Su integral sobre todo el dominio vale 1,f(x) representa una probabilidad puntual,f(x) nunca puede ser mayor que 1,A;B
+Probabilidad,SM,¿Cuáles de los siguientes son experimentos aleatorios?,Lanzar una moneda y observar la cara,Tirar un dado y observar el número,Calcular el resultado de 2 + 2,Sumar dos constantes conocidas,A;B
+Probabilidad,SM,"Sobre la probabilidad condicional, ¿qué afirmaciones son verdaderas?",P(A|B) = P(A∩B)/P(B) cuando P(B) > 0,"Si A y B son independientes, P(A|B) = P(A)",P(A|B) = P(B|A) siempre,P(A|B) puede ser mayor que 1,A;B
